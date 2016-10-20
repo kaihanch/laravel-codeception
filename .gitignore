@@ -1,15 +1,40 @@
-vendor/
-node_modules/
+# Global/Temp.gitignore
+*~
+*.swp
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
+# Global/OSX.gitignore
+.DS_Store
 
-# Laravel 5 & Lumen specific
-bootstrap/cache/
-.env.*.php
-.env.php
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Global/Windows.gitignore
+Thumbs.db
+Desktop.ini
+
+# NetBeans project files
+nbproject
+
+# IntelliJ IDEA project files
+.idea
+*.iml
+
+# Eclipse project files
+.project
+.buildpath
+.settings
+
+# Vagrant files
+.vagrant
+*.box
+
+# Composer files
+composer.phar
+vendor
+
+# Laravel developer's Environment files
 .env
-
-# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
-.rocketeer/
